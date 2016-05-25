@@ -1,0 +1,96 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  font-family: Segoe UI;
+}
+/*Main Heading of the page */
+.MainHeading
+{
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+p {
+  
+  font-family: Segoe UI;
+  color: black;
+  position: relative;
+  top: 20px;
+  font-size: 16px;
+}
+.heading
+{
+  background-color: #CD5C5C;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  position: absolute;
+  top:0px;
+  right:0px;
+  width:100px;
+  text-align: center;
+  font-weight: bolder;
+  font-size:20px;
+}
+.section{
+  background-color:  #A9A9A9;
+  border: 1px solid black;
+  margin: 15px;
+  position: relative;
+}
+
+.b1{
+  background-color: #ffd6cc;
+}
+.b2{
+  background-color: #CD5C5C;
+  color: white;
+}
+.b3{
+  background-color: #ffff99;
+}
+.para
+{
+  padding:10px;
+  margin-bottom: 10px;
+}
+/*Responsive Framework */
+.row {
+  width: 100%;
+  box-sizing: border-box;
+}
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-ld-4 {
+    float:left;
+    top:10px;
+    position: relative;
+ }
+  
+  .col-ld-4 {
+    width: 33.33%;
+  }
+}
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+     float:left;
+     top:10px;
+    position: relative;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+  .col-sd-12 {
+     float:left;
+    position: relative;
+    top:10px;
+ }
+  .col-sd-12 {
+    width: 100%;
+  }
+}
