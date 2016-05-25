@@ -1,0 +1,74 @@
+body{
+
+	background-color:#993366;
+	font-family: Segoe UI;
+	font-size: 16px;
+	color:white;
+	/*background-image: url("../images/1.jpg");*/
+	background-size: cover;
+	
+}
+
+
+#menu-tile, #specials-tile, #map-tile
+{
+	height:200px;
+	width: 100%;
+	border: 2px solid black;
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+
+#menu-tile, #specials-tile, #map-tile
+{
+	background: url('../images/Menu-Tile.png') no-repeat;
+	background-position: center;
+
+}
+#logo-image
+{
+	background:url('../images/3.png') no-repeat;
+	height: 120px;
+	width: 120px;
+	margin: 5px;
+	padding-left: 10px;
+}
+
+nav{
+	background-color: #ffb84d !important;
+}
+
+
+@media (min-width: 1200px)
+{
+	.jumbotron
+	{
+
+		background:url('../images/Jumbotron_1200.jpg') no-repeat;
+		height: 500px;
+		border:2px solid black;
+
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px)
+{
+		.jumbotron
+	{
+
+		background:url('../images/Jumbotron_992.png') no-repeat;
+		height: 500px;
+	}
+
+}
+
+@media (max-width: 992px)
+{
+	.jumbotron
+	{
+
+		background:url('../images/Jumbotron_768.png') no-repeat;
+		height: 500px;
+	}
+}
