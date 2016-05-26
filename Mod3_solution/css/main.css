@@ -1,0 +1,81 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  font-family: Segoe UI;
+}
+/*Main Heading of the page */
+body{
+
+  background-color:white;
+  font-family: Segoe UI;
+  font-size: 16px;
+  color:white;
+  background-size: cover;
+}
+
+.MainHeading
+{
+  font-size: 28px;
+  margin-bottom: 15px;
+  margin-top: 30px;
+  color: blue;
+  font-weight: bold;
+}
+.navbar-brand
+{
+  margin-bottom: 20px;
+  padding: 0px !important;
+  padding-left: 11px !important;
+
+}
+
+.navbar-default{
+  background-color: #001a33 !important;
+}
+
+.navbar-nav > li > a
+{
+  background-color: #001a33 !important;
+  color: white !important;
+}
+
+p {
+  
+  font-family: Segoe UI;
+  color: black;
+  position: relative;
+  top: 20px;
+  font-size: 16px;
+}
+
+.section{
+  background-color:  #cce6ff;
+  border: 1px solid black;
+  margin: 15px;
+  position: relative;
+}
+
+.para
+{
+  padding:10px;
+  margin-bottom: 10px;
+}
+
+.SiteHeading
+{
+  color:white;
+}
+
+.b1
+{
+  color: #001a33;
+  font-weight: bold;
+  font-size: 22px;
+}
+.navbar-fixed-top {
+  top: -70px; /* you'll have to figure out the exact number here */
+}
+
+.navbar-fixed-top, .navbar-fixed-bottom {
+  position: static; /* this can also be static */
+}
