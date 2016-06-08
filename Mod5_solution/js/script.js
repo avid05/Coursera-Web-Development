@@ -111,7 +111,7 @@ function buildAndShowHomeHTML (categories) {
       }
       else
       {
-         var CatergoryCode = chosenCategoryShortName.charAt(0);
+         var CategoryCode = chosenCategoryShortName.charAt(0);
       }
       console.log(CategoryCode);
 
